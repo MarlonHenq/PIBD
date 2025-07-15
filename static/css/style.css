@@ -1,0 +1,158 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.register-card {
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+.btn-primary{
+    background-color: #77D570;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: #66C65A;
+}
+
+.card-feature {
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.05);
+    margin-bottom: 20px;
+    transition: transform .2s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-feature:hover {
+    transform: translateY(-5px);
+}
+.card-feature img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+.stats-box {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,.03);
+    margin-bottom: 20px;
+}
+.stats-box h3 {
+    font-size: 2.5rem;
+    color: #0d6efd;
+    margin-bottom: 5px;
+}
+.stats-box p {
+    color: #6c757d;
+    font-weight: 500;
+}
+
+.point-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.05);
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.point-card .actions {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.point-card .actions a {
+    margin-left: 10px;
+    color: #6c757d;
+}
+.point-card .location-info {
+    font-size: 0.9em;
+    color: #6c757d;
+}
+.point-card .attributes span {
+    display: inline-block;
+    background-color: #e9ecef;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.vehicle-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.05);
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.vehicle-card .actions {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.vehicle-card .actions a {
+    margin-left: 10px;
+    color: #6c757d;
+}
+.vehicle-card .info-row {
+    margin-bottom: 5px;
+}
+.vehicle-card .info-row strong {
+    display: inline-block;
+    width: 80px;
+}
+
+.itinerary-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.05);
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.itinerary-card .actions {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.itinerary-card .actions a {
+    margin-left: 10px;
+    color: #6c757d;
+}
+.itinerary-card .info-row {
+    margin-bottom: 5px;
+}
+.itinerary-card .info-row strong {
+    display: inline-block;
+    width: 120px; /* Adjust as needed for alignment */
+}
+.stop-point-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+.stop-point-list li {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
